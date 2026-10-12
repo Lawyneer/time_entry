@@ -1,0 +1,19 @@
+# Build output
+/target/
+
+# Runtime configuration — contains the user's personal settings
+# (tk_number, billing rates, email). Users create their own; see
+# config.example.ini and README.md.
+config.ini
+config.*.ini
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE noise
+.idea/
+.vscode/
+*.swp
+*.sublime-workspace

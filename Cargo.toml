@@ -1,0 +1,18 @@
+[package]
+name = "time_entry"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+eframe = "=0.27"
+chrono = "0.4"
+windows = { version = "=0.56", features = [
+    "Win32_Foundation",
+    "Win32_System_Com",
+    "Win32_System_Ole",
+    "Win32_System_Variant",
+] }
+
+[profile.release]
+opt-level = "z"
+lto = true
