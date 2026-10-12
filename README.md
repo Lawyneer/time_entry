@@ -1,5 +1,9 @@
 # Time Entry
 
+[![Build](https://github.com/Lawyneer/time_entry/actions/workflows/ci.yml/badge.svg)](https://github.com/Lawyneer/time_entry/actions/workflows/ci.yml)
+[![Version](https://img.shields.io/github/v/tag/Lawyneer/time_entry?label=version&sort=semver)](https://github.com/Lawyneer/time_entry/releases)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 A native Windows time-entry application for professionals such as lawyer and accountants
 who bill by the hour. Built in Rust as a modern replacement for the original Python
 version, producing a single self-contained executable with no runtime dependencies to install.
