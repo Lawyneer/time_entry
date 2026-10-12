@@ -2,8 +2,7 @@
 
 A native Windows time-entry application for professionals such as lawyer and accountants
 who bill by the hour. Built in Rust as a modern replacement for the original Python
-[PySimpleGUI](https://pysimplegui.org/) version, producing a single self-contained
-executable with no runtime dependencies to install.
+version, producing a single self-contained executable with no runtime dependencies to install.
 
 Entries are formatted into a billing email and sent through the user's locally installed
 Outlook client, exactly matching the email format expected by the billing system on the
